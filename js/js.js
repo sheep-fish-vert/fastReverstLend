@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    /*
 	$('.lightSlider').each(function(){
 
         $(this).lightSlider({
@@ -11,7 +12,7 @@ $(document).ready(function() {
         });
 
     });
-
+    */
     function modalHide(){
         $('.menu .btn-menu').click(function(event) {
             //event.preventDefault();

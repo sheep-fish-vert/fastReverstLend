@@ -8,9 +8,9 @@
     .page6_1 .page6_2 span{max-width:665px;width:100%;display: block;margin:0 auto;position:relative;left:-14px;line-height:1.25;}
 
     .page6_1 .wrap_icon{max-width:1035px;width: 100%;margin: 0 auto;position:relative;left:-7px;display: flex;justify-content: space-between;-ms-align-items: flex-start;align-items: flex-start;}
-    .page6 .page2_icon1, .page2_icon2, .page2_icon3{margin:0 auto;}
-    .page6 .page2_icon1 a, .page2_icon2 a, .page2_icon3 a{display: block;}
-    .page6 .page2_icon1 p, .page2_icon2 p, .page2_icon3 p{font-size: 25px;font-family: 'GothamProBlack', sans-serif;padding-top:0;padding-bottom:12px;}
+    .page6 .page2_icon1, .page6 .page2_icon2, .page2_icon3{margin:0 auto;}
+    .page6 .page2_icon1 a, .page6 .page2_icon2 a, .page6 .page2_icon3 a{display: block;}
+    .page6 .page2_icon1 p, .page6 .page2_icon2 p, .page6 .page2_icon3 p{font-size: 25px;font-family: 'GothamProBlack', sans-serif;padding-top:0;padding-bottom:12px;}
     .page6 .page2_icon1 .btn_page4{font-family: 'GothamPro', sans-serif;}
 
 /* /page6 */
