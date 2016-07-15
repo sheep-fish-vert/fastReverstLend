@@ -11,6 +11,7 @@ $(document).ready(function() {
     function modalHide(){
         $('.menu .btn-menu').click(function() {
             if( $('body').is('.modal-open') ){
+                console.log('go');
                 $('#modal-call-form').modal('hide');
             }
         });
