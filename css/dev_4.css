@@ -102,6 +102,7 @@
     @media screen and (max-width:666px){
 
         .page6_1 .page6_2 p{margin-left:0;}
+        .page6_1 .page6_2 span{left:0;}
 
         .page2_icon1, .page2_icon2{width: 100%;}
 
