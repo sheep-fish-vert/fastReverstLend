@@ -24,7 +24,11 @@ nav{height: 79px;}
 .page1{height: 1080px;}
 .wrap_sce1_1{height: 517px;}
 .btn-group{margin: 25px auto;}
-
+.sce1_1{outline: none;border:2px solid #966a39;border-bottom: none;}
+.page1 .sce1_1{overflow: hidden;}
+section.page1 p span{background: rgba(222, 230, 229, 0.35);}
+section.page1 p span:after{content: '';position: absolute;top: 16px;width: 156px;height: 2px;background-color: #966a39;left: 100%;}
+section.page1 p span:before{content: '';position: absolute;top: 16px;width: 161px;height: 2px;background-color: #966a39;right: 100%;}
 /*page2*/
 .page2_1{margin: 182px auto 102px;}
 .page2 .wrap_icon{width: 61%;margin: 138px auto;}
@@ -36,7 +40,7 @@ nav{height: 79px;}
 
 /*page4*/
 .page4 .wrap_icon{max-width: 1086px;}
-.page4 .page2_icon1 p,.page4 .page2_icon2 p,.page4 .page2_icon3 p {font-size: 25px;font-family: 'GothamProBlack';color: #4e342f;/*padding-top: 30px;*/}
+.page4 .page2_icon1 p,.page4 .page2_icon2 p,.page4 .page2_icon3 p {font-size: 25px;font-family: 'GothamProBlack';color: #4e342f;padding-top: 30px;}
 
 /*page5*/
 .page5-title{position: absolute;top: 123px;left: 50%;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);font-size: 40px;color: #8b8a8a;font-family: 'GothamProBlack';}
@@ -44,7 +48,7 @@ nav{height: 79px;}
 /*modal*/
 .modal-backdrop.in{opacity: .9;}
 .modal-backdrop{top: 79px;background-color: rgba(62,39,35, .98);}
-#modal-call-form .modal-dialog{margin-top: 215px;}
+#modal-call-form .modal-dialog{margin-top: 80px;}
 #modal-call-form .form-title{margin-bottom: 45px;}
 #modal-call-form form{display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;-webkit-flex-direction: column;-moz-flex-direction: column;-ms-flex-direction: column;-o-flex-direction: column;flex-direction: column;-ms-align-items: center;align-items: center;}
 #modal-call-form .form-title b{font-family: 'GothamProBlack';color: white;font-size: 30px;text-align: center;display: block;}
@@ -113,10 +117,14 @@ body.modal-open .hidden-menu-ticker ~ .btn-menu span.third{transform: rotate(-45
     /*page1*/
     section.page1 .sce1_2 p{font-size: 46px;}
     section.page1 .sce1_2 p span{font-size: 35px;line-height: 1.3;}
-    .sce1_1{}
     .wrap_sce1_1{padding: 0 20px;}
     .page1 .wrapp-btn-group{padding: 0 20px}
     .sce1_2{padding: 0 10px}
+
+    .sce1_1{border-bottom: 2px solid #966a39;}
+    section.page1 p span{background: rgb(213, 213, 213);}
+    section.page1 p span:after{display: none;}
+    section.page1 p span:before{display: none;}
 
 
     /**page2*/
@@ -154,7 +162,7 @@ body.modal-open .hidden-menu-ticker ~ .btn-menu span.third{transform: rotate(-45
 
     .page3 .carousel-caption .wrapp-btn-group .btn-group button:first-child{margin-top: 0;}
 
-    #modal-call-form .modal-dialog {margin-top: 142px;}
+    #modal-call-form .modal-dialog {margin-top: 40px;}
 }
 @media screen and (max-width: 390px){
     /*page1*/
