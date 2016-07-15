@@ -10,6 +10,9 @@
 	font-family: 'GothamProLight';
 	src: url(../fonts/gothamprolight.ttf);
 }
+
+.main{overflow:hidden;}
+
 html { margin:0; padding:0;}
 body { margin:0; padding:0; color:#666; font:normal 18px/28px Helvetice, Arial, sans-serif; background:#fff;}
 .clear { clear:both;}

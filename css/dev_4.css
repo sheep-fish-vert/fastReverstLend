@@ -20,17 +20,45 @@
     .page7 .block1{justify-content: space-between;-ms-align-items: flex-start;align-items: stretch;}
     .page7 .block1 .block_1_1{width:49.4%;position:relative;overflow: hidden;}
     .page7 .block1 .block_1_1 img{max-width:none;display: block;min-width:100%;min-height:100%;position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);}
-    .page7 .block1 .block_1_2{width:50.6%;padding:128px 60px 0 54px;}
+    .page7 .block1 .block_1_2{width:50.6%;padding:128px 60px 0 54px;min-height: 803px;}
     .page7 .block1 .block_1_2 .title{width:60.9%;padding:27px 30px 25px 36px;font-family: 'GothamProBlack', sans-serif;font-size: 24px;height:auto;}
+    .page7 .block1 .block_1_2 .title.reverse{right:auto;left:0;text-align: right;}
     .page7 .block1 .block_1_2 .title sup{font-size: 16px;}
     .page7 .block1 .block_1_2 .block7_content{max-width:666px;width:100%;min-height:520px;}
     .page7 .block1 .block_1_2 .block7_content p{padding:0;margin:0 0 10px 0;font-size:16px;line-height: 1.25;}
-    .btn_page7{height:93px;background-position:29px 19px;padding-left: 85px;}
+    .btn_page7{height:93px;background-position:29px 19px;padding-left: 85px;transition:all 300ms ease;}
+    .btn_page7:hover{background-color:#fff;}
     .btn_page7 span{left:-5px;top:2px;}
+
     .page7 .resize{margin-top:-3px;}
-    .page7 .resize .block2{display: flex;justify-content: space-between;align-items: flex-start;}
+    .page7 .resize .block2{display: flex;justify-content: space-between;align-items: strech;}
     .page7 .resize .block2 .block_2_1, .page7 .resize .block2 .block_2_2{max-width:none;}
-    .page7 .resize .block2 .block_2_1{width:49.4%;}
-    .page7 .resize .block2 .block_2_2{width:50.6%;}
+    .page7 .resize .block2 .block_2_1{width:49.4%;display: flex;flex-direction:column;justify-content: space-around;align-items: center;}
+    .page7 .resize .block2 .block_2_1 .block_2_1_img{text-align: center;}
+    .page7 .resize .block2 .block_2_2{width:50.6%;position: relative;}
+    .page7 .resize .block2{background-color: #f5f5f5;}
+    .page7 .resize .wrap_block2{width:auto;}
+    .page7 .resize .wrap_block2 .btn_block2{position:relative;left:12px;}
+    .page7 .resize .wrap_block2 .btn_block2 a{position: relative;bottom:auto;font-family: 'GothamPro', sans-serif;font-size:16px;}
+    .page7 .resize .wrap_block2 .btn_block2 img{margin-left:9px;}
+    .page7 .resize .block2 .block_2_2 .lSPager{position:absolute;width:100%;left:0;bottom:0;margin-top:0!important;background-color:rgba(0, 0, 0, .75);padding:10px 64px 10px 64px;}
+    .page7 .resize .block2 .block_2_2 .lSPager li{text-align: center;width:calc(100% / 4)!important;margin-right:0!important;}
+    .page7 .resize .block2 .block_2_2 .lSPager li.active a{border-color:#fff;}
+    .page7 .resize .block2 .block_2_2 .lSPager a{display: inline-block;border:1px solid transparent;}
+
+    .page7 .resize .block2 .block_2_2 .lSAction{bottom:95px;position: absolute;width:100%;left:0;}
+    .page7 .resize .block2 .block_2_2 .lSAction>a{background-image:none;width:15px;height:29px;opacity:1;top:auto;}
+    .page7 .resize .block2 .block_2_2 .lSAction>a:before, .page7 .resize .block2 .block_2_2 .lSAction>a:after{content:'';display:block;position:absolute;width:20px;height:1px;background-color: #fff;left:0;top:50%;}
+
+    .page7 .resize .block2 .block_2_2 .lSAction>a.lSPrev{left:15px;}
+    .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext{right:15px;}
+
+    .page7 .resize .block2 .block_2_2 .lSAction>a.lSPrev:before, .page7 .resize .block2 .block_2_2 .lSAction>a.lSPrev:after{transform-origin:0 50%;}
+    .page7 .resize .block2 .block_2_2 .lSAction>a.lSPrev:before{transform:rotate(45deg);}
+    .page7 .resize .block2 .block_2_2 .lSAction>a.lSPrev:after{transform:rotate(-45deg);}
+
+    .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:before, .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:after{transform-origin:100% 50%;left:auto;right:0;}
+    .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:before{transform:rotate(45deg);}
+    .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:after{transform:rotate(-45deg);}
 
 /* /page7 */

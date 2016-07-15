@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	$('#lightSlider').lightSlider({
 		gallery: true,
 		item: 1,
