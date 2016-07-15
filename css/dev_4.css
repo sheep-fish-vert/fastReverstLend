@@ -38,7 +38,7 @@
     .page7 .resize .block2 .block_2_2{width:50.6%;position: relative;overflow: hidden;}
     .page7 .resize .block2 .block_2_2 .slide_small{position: absolute;right:0;bottom:0;left:0;background:rgba(0, 0, 0, .75);padding:10px 64px 10px 64px;}
     .page7 .resize .block2 .block_2_2 .slide_small img{border:1px solid transparent;}
-    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow{border:none;background:none;font-size: 0;width:15px;height:29px;position:absolute;top:calc(50% - 15px);padding:0;margin:0;}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow{border:none;background:none;font-size: 0;width:15px;height:100%;position:absolute;top:50%;transform:translate(0, -50%);padding:0;margin:0;}
     .page7 .resize .block2 .block_2_2 .slide_small .slick-current img{border-color:#fff;}
     .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow.slick-prev{left:15px;}
     .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow.slick-next{right:15px;}
