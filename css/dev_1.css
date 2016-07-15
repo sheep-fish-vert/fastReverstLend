@@ -36,7 +36,7 @@ nav{height: 79px;}
 
 /*page4*/
 .page4 .wrap_icon{max-width: 1086px;}
-.page4 .page2_icon1 p,.page4 .page2_icon2 p,.page4 .page2_icon3 p {font-size: 25px;font-family: 'GothamProBlack';color: #4e342f;padding-top: 30px;}
+.page4 .page2_icon1 p,.page4 .page2_icon2 p,.page4 .page2_icon3 p {font-size: 25px;font-family: 'GothamProBlack';color: #4e342f;/*padding-top: 30px;*/}
 
 /*page5*/
 .page5-title{position: absolute;top: 123px;left: 50%;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);font-size: 40px;color: #8b8a8a;font-family: 'GothamProBlack';}
