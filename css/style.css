@@ -96,6 +96,7 @@ nav{
 }
 .hidden-menu-ticker:checked ~ .btn-menu span.first {
 	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
 	top: 10px;
 }
 .hidden-menu-ticker:checked ~ .btn-menu span.second {
@@ -103,6 +104,7 @@ nav{
 }
 .hidden-menu-ticker:checked ~ .btn-menu span.third {
 	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
 	top: -10px;
 }
 .hidden-menu li{
@@ -683,10 +685,10 @@ footer p{
 		font-size: 32px;
 	}
   .wrapp-btn-group .btn-group button{
-	  text-align: center;
+	  text-align: center;min-width: 300px
   }
 	.wrapp-btn-group .btn-group button, .wrapp-btn-group .btn-group button:hover{
-		background-position: 260px;
+		/*background-position: 260px;*/background-size: 25px ;background-position: 90% 50%;
 	}
 	.page4 .wrap_icon {
 		width: 100%;
@@ -723,9 +725,9 @@ footer p{
 @media screen and (min-width: 768px){
 
 	.carousel-caption {
-/*		right: 20%;
+		right: 20%;
 		left: 20%;
-		margin: 220px auto;*/
+		margin: 220px auto;
 	}
 	.carousel-indicators {
 		bottom: 182px;

@@ -20,10 +20,14 @@
 <![endif]-->
 </head>
 <body>
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="modal-call-form">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content1">
 			<form action="" class="form1">
+				<div class="form-title">
+					<b>связь с нами</b>
+					<span>Остались вопросы?</span>
+				</div>
 				<input type="text" placeholder="Ваше имя"/>
 				<input type="email" placeholder="Ваша почта"/>
 				<textarea name="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
@@ -65,7 +69,7 @@
 			<div class="wrapp-btn-group">
 				<div class="btn-group">
 					<button type="button">Распроложение</button>
-					<button type="button">Связаться</button>
+					<button type="button" data-toggle="modal" data-target="#modal-call-form">Связаться</button>
 				</div>
 			</div>
 		</section>
