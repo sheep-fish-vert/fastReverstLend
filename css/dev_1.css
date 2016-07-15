@@ -25,10 +25,11 @@ nav{height: 79px;}
 .wrap_sce1_1{height: 517px;}
 .btn-group{margin: 25px auto;}
 .sce1_1{outline: none;border:2px solid #966a39;border-bottom: none;}
-.page1 .sce1_1{overflow: hidden;}
-section.page1 p span{background: rgba(222, 230, 229, 0.35);}
-section.page1 p span:after{content: '';position: absolute;top: 16px;width: 156px;height: 2px;background-color: #966a39;left: 100%;}
-section.page1 p span:before{content: '';position: absolute;top: 16px;width: 161px;height: 2px;background-color: #966a39;right: 100%;}
+.page1 .sce1_1{}
+section.page1 p span{background: rgba(222, 230, 229, 0.0);}
+section.page1 .sce1_1{position: relative;}
+section.page1 .sce1_1:after{content: '';position: absolute;top: 100%;width: calc(100% - 70%);height: 2px;background-color: #966a39;right: -2px;}
+section.page1 .sce1_1:before{content: '';position: absolute;top: 100%;left:-2px;width: calc(100% - 70%);height: 2px;background-color: #966a39;}
 /*page2*/
 .page2_1{margin: 182px auto 102px;}
 .page2 .wrap_icon{width: 61%;margin: 138px auto;}
@@ -107,7 +108,7 @@ body.modal-open .hidden-menu-ticker ~ .btn-menu span.third{transform: rotate(-45
     .page4_1{margin: 116px auto;}
     .page4 .wrap_icon{margin: 131px auto;}
 
-    #modal-call-form .modal-dialog {margin-top: 183px;}
+    /*#modal-call-form .modal-dialog {margin-top: 183px;}*/
 }
 
 @media screen and (max-width: 768px){
@@ -121,10 +122,10 @@ body.modal-open .hidden-menu-ticker ~ .btn-menu span.third{transform: rotate(-45
     .page1 .wrapp-btn-group{padding: 0 20px}
     .sce1_2{padding: 0 10px}
 
-    .sce1_1{border-bottom: 2px solid #966a39;}
+/*    .sce1_1{border-bottom: 2px solid #966a39;}
     section.page1 p span{background: rgb(213, 213, 213);}
     section.page1 p span:after{display: none;}
-    section.page1 p span:before{display: none;}
+    section.page1 p span:before{display: none;}*/
 
 
     /**page2*/
@@ -163,6 +164,8 @@ body.modal-open .hidden-menu-ticker ~ .btn-menu span.third{transform: rotate(-45
     .page3 .carousel-caption .wrapp-btn-group .btn-group button:first-child{margin-top: 0;}
 
     #modal-call-form .modal-dialog {margin-top: 40px;}
+    section.page1 .sce1_1:after{width: calc(100% - 80%);}
+    section.page1 .sce1_1:before{;width: calc(100% - 80%);}
 }
 @media screen and (max-width: 390px){
     /*page1*/
