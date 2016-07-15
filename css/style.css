@@ -615,7 +615,7 @@ footer p{
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+
 }
 
 /* Small Devices, Tablets */
@@ -871,7 +871,7 @@ footer p{
 	width: 500px;
 }
 .resize .block_2_2{
-	max-width:50% !important;
+	/*max-width:50% !important;*/
 }
 .lSPager .lSGallery{
 	margin-top: -145px;
