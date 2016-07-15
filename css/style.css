@@ -615,7 +615,7 @@ footer p{
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+
 }
 
 /* Small Devices, Tablets */
@@ -673,9 +673,9 @@ footer p{
 	.page2_1, .page4_1{
 		margin: 45px auto;
 	}
-  .page2_icon1 img, .page2_icon2 img, .page2_icon3 img{
+/*  .page2_icon1 img, .page2_icon2 img, .page2_icon3 img{
 	  width: 50%;
-  }
+  }*/
 	.page3 h2 {
 		font-size: 32px;
 	}
@@ -720,9 +720,9 @@ footer p{
 @media screen and (min-width: 768px){
 
 	.carousel-caption {
-		right: 20%;
+/*		right: 20%;
 		left: 20%;
-		margin: 220px auto;
+		margin: 220px auto;*/
 	}
 	.carousel-indicators {
 		bottom: 182px;

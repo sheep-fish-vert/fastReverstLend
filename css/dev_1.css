@@ -1,16 +1,23 @@
 /*header*/
+body{min-width: 320px;}
 nav{height: 79px;}
 .logo{padding-top: 3px;}
 .menu{padding-right: 27px;padding-top: 3px;}
 
-.btn-menu span{padding: 5px 0 0;box-sizing: content-box;position: relative;background-color: transparent;margin-top: 0;transition:all ease .2s;}
-.btn-menu span:after{content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 5px;background-color: #af8655;}
+.menu{padding-top: 5px;}
+.btn-menu{width: 34px;right: 47px;height: 6px;}
+.btn-menu span{padding: 5px 0 0;box-sizing: content-box;position: relative;background-color: transparent;margin-top: 0;transition:all ease .2s;height: 4px;}
+.btn-menu span:after{content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 4px;background-color: #af8655;}
 .btn-menu span.first{padding-top: 0;}
 
-.hidden-menu-ticker:checked ~ .btn-menu span.third{top: -8px;left: -2px;}
+.hidden-menu-ticker:checked ~ .btn-menu span.third{top: -6px;left: -2px;}
 .hidden-menu-ticker:checked ~ .btn-menu span.first{top: 11px;}
 
-.hidden-menu{top: 79px;}
+.hidden-menu{top: 79px;background-color: rgba(62,39,35, .95);padding-top: 165px;}
+.hidden-menu li:last-child{border-bottom: none;padding-top: 37px;}
+.hidden-menu li:last-child a span{position: relative;}
+.hidden-menu li:last-child a span:after{width: 1px;height: 41px;content: '';background-color: #5b413c;position: absolute;right: -5px}
+.hidden-menu li:last-child a img{margin-left: 20px;}
 /*main*/
 
 /*page1*/
@@ -25,6 +32,93 @@ nav{height: 79px;}
 
 /*page3*/
 .page3 .carousel-caption img{max-width: 375px;}
+.page3 button.house:hover{background-image: url('../img/icon-house3.png');}
 
 /*page4*/
-.page4 .wrap_icon{max-width: 1000px;}
+.page4 .wrap_icon{max-width: 1086px;}
+.page4 .page2_icon1 p,.page4 .page2_icon2 p,.page4 .page2_icon3 p {font-size: 25px;font-family: 'GothamProBlack';color: #4e342f;padding-top: 30px;}
+
+/*page5*/
+.page5-title{position: absolute;top: 123px;left: 50%;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);font-size: 40px;color: #8b8a8a;font-family: 'GothamProBlack';}
+
+
+
+
+
+
+@media screen and (max-width: 1920px){
+
+}
+@media screen and (max-width: 1600px){
+
+}
+@media screen and (max-width: 1400px){
+
+}
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+    /*page1*/
+    .page1 {height: 970px;}
+    .wrap_sce1_1 {height: 445px;}
+    section.page1 .sce1_2 p{padding-left: 0;font-size: 60px;}
+    section.page1 .sce1_2 p span{font-size: 54px;line-height: 1.3;}
+    .btn-group{display: flex;align-items: center;flex-direction: column;}
+
+    /*page2*/
+    .page2{height: 700px;}
+    .page2_1 {margin: 104px auto 57px;}
+    .page2_1 p{line-height: 1.4}
+    .page2 .wrap_icon {width: 95%;margin: 133px auto;}
+
+    /*page3*/
+    .page3 h2{line-height: 1;}
+    .page3 .carousel-caption{margin: 40px auto;top: 0;}
+    .page3 .carousel-indicators {bottom: 28px;}
+
+}
+@media screen and (max-width: 1030px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 666px){
+    /*page1*/
+    section.page1 .sce1_2 p{font-size: 46px;}
+    section.page1 .sce1_2 p span{font-size: 35px;line-height: 1.3;}
+    .sce1_1{}
+    .wrap_sce1_1{padding: 0 20px;}
+    .page1 .wrapp-btn-group{padding: 0 20px}
+    .sce1_2{padding: 0 10px}
+
+
+    /**page2*/
+    .page2{height: 1032px;}
+    .page2_1 {margin: 70px auto 57px;}
+    .page2 .wrap_icon {display: flex;justify-content: center;flex-wrap: wrap;}
+    .page2_icon1, .page2_icon2, .page2_icon3{width: 100%;margin-bottom: 25px;}
+}
+@media screen and (max-width: 479px){
+    /*header*/
+    nav{padding: 15 20px;}
+    .logo {max-width: 170px;padding-top: 7px;}
+    .menu{padding-right: 5px;}
+
+    .hidden-menu{padding-top: 60px;}
+    .hidden-menu li{width: 90%;}
+    .hidden-menu li a{font-size: 23px;}
+
+    /*page2*/
+    .page2_1 p span{height: auto;font-size: 16px;line-height: 1.5;padding: 0 7px;display: flex;margin-top: 18px;    justify-content: center;}
+
+}
+@media screen and (max-width: 390px){
+    /*page1*/
+    .page1 {height: 850px;}
+    .wrap_sce1_1 {height: 389px;}
+    section.page1 .sce1_2 p {font-size: 39px;}
+    section.page1 .sce1_2 p span {font-size: 28px;}
+
+}
