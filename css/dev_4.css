@@ -8,10 +8,10 @@
     .page6_1 .page6_2 span{max-width:665px;width:100%;display: block;margin:0 auto;position:relative;left:-14px;line-height:1.25;}
 
     .page6_1 .wrap_icon{max-width:1035px;width: 100%;margin: 0 auto;position:relative;left:-7px;display: flex;justify-content: space-between;-ms-align-items: flex-start;align-items: flex-start;}
-    .page2_icon1, .page2_icon2, .page2_icon3{margin:0 auto;}
-    .page2_icon1 a, .page2_icon2 a, .page2_icon3 a{display: block;}
-    .page2_icon1 p, .page2_icon2 p, .page2_icon3 p{font-size: 25px;font-family: 'GothamProBlack', sans-serif;padding-top:0;padding-bottom:12px;}
-    .page2_icon1 .btn_page4{font-family: 'GothamPro', sans-serif;}
+    .page6 .page2_icon1, .page2_icon2, .page2_icon3{margin:0 auto;}
+    .page6 .page2_icon1 a, .page2_icon2 a, .page2_icon3 a{display: block;}
+    .page6 .page2_icon1 p, .page2_icon2 p, .page2_icon3 p{font-size: 25px;font-family: 'GothamProBlack', sans-serif;padding-top:0;padding-bottom:12px;}
+    .page6 .page2_icon1 .btn_page4{font-family: 'GothamPro', sans-serif;}
 
 /* /page6 */
 
@@ -35,7 +35,7 @@
     .page7 .resize .block2 .block_2_1, .page7 .resize .block2 .block_2_2{max-width:none;}
     .page7 .resize .block2 .block_2_1{width:49.4%;display: flex;flex-direction:column;justify-content: space-around;align-items: center;}
     .page7 .resize .block2 .block_2_1 .block_2_1_img{text-align: center;}
-    .page7 .resize .block2 .block_2_2{width:50.6%;position: relative;}
+    .page7 .resize .block2 .block_2_2{width:50.6%;position: relative;overflow: hidden;}
     .page7 .resize .block2{background-color: #f5f5f5;}
     .page7 .resize .wrap_block2{width:auto;}
     .page7 .resize .wrap_block2 .btn_block2{position:relative;left:12px;}
