@@ -8,4 +8,12 @@ $(document).ready(function() {
 		thumbItem: 4
 	});
 
+    function modalHide(){
+        $('.menu .btn-menu').click(function() {
+            if( $('body').is('.modal-open') ){
+                $('#modal-call-form').modal('hide');
+            }
+        });
+    }
+    modalHide();
 });

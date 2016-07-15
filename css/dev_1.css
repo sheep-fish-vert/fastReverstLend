@@ -61,7 +61,7 @@ body.modal-open .hidden-menu-ticker ~ .btn-menu span.first{transform: rotate(45d
 body.modal-open .hidden-menu-ticker ~ .btn-menu span.second{opacity: 0;}
 body.modal-open .hidden-menu-ticker ~ .btn-menu span.third{transform: rotate(-45deg);top: -6px;left: -2px;}
 
-
+.modal{top: 79px;}
 
 
 @media screen and (max-width: 1920px){
