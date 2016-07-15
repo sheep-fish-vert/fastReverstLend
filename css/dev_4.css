@@ -20,7 +20,7 @@
     .page7 .block1{justify-content: space-between;-ms-align-items: flex-start;align-items: stretch;}
     .page7 .block1 .block_1_1{width:49.4%;position:relative;overflow: hidden;}
     .page7 .block1 .block_1_1 img{max-width:none;display: block;min-width:100%;min-height:100%;position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);}
-    .page7 .block1 .block_1_2{width:50.6%;padding:128px 60px 0 54px;min-height: 803px;}
+    .page7 .block1 .block_1_2{width:50.6%;padding:128px 60px 0 54px;min-height: 803px;padding-bottom: 25px;}
     .page7 .block1 .block_1_2 .title{width:60.9%;padding:27px 30px 25px 36px;font-family: 'GothamProBlack', sans-serif;font-size: 24px;height:auto;}
     .page7 .block1 .block_1_2 .title.reverse{right:auto;left:0;text-align: right;}
     .page7 .block1 .block_1_2 .title sup{font-size: 16px;}
@@ -60,5 +60,42 @@
     .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:before, .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:after{transform-origin:100% 50%;left:auto;right:0;}
     .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:before{transform:rotate(45deg);}
     .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:after{transform:rotate(-45deg);}
+
+    @media screen and (max-width:1200px){
+
+        .page7 .block1, .page7 .block2{display: flex;}
+        .page7 .block1 .block_1_2{position:static;}
+
+    }
+
+    @media screen and (max-width:1024px){
+
+        .btn_page7{background-image:url(../img/icon-people.png);}
+
+    }
+
+    @media screen and (max-width:992px){
+
+        .page6_1{margin-top: 110px;}
+        .page6_1 .page6_2{margin:0 auto 40px auto;}
+        .page6_1 .page6_2 img{max-width:125px;}
+        .page6_1 .page6_2 p{margin-bottom:30px;}
+
+        .page6_1 .wrap_icon{justify-content: space-around;flex-wrap:wrap;margin-bottom: 20px;}
+        .page2_icon1, .page2_icon2{width:50%;margin-bottom: 20px;}
+        .page2_icon1 img, .page2_icon2 img, .page2_icon3 img{margin-bottom: 0;}
+
+        .page7 .block1, .page7 .block2{display: block;}
+        .page7 .block1 .block_1_1, .page7 .block1 .block_1_2{width: 100%;}
+        .page7 .block1 .block_1_1{display:none;}
+        .page7 .block1 .block_1_2{padding: 0px 0px 20px 0px;}
+        .page7 .block1 .block_1_2 .title{width: 100%;position: static;text-align: center;margin:0 0px 20px 0px;}
+        .page7 .block1 .block_1_2 .block7_content{margin:0 auto;}
+
+        .byn_page7{max-width:300px;width:100%;margin:0 auto;}
+
+        .page .resize .block2 .block_2_1, .page7 .resize .block2 .block_2_2{width:100%;}
+
+    }
 
 /* /page7 */
