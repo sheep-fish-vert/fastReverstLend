@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Main</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/lightslider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content1">
+			<form action="" class="form1">
+				<input type="text" placeholder="Ваше имя"/>
+				<input type="email" placeholder="Ваша почта"/>
+				<textarea name="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+				<input type="submit" value="Отправить"/>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="wrapper">
+	<div class="main">
+		<nav>
+			<div class="logo"><a href=""><img src="img/logo.png" alt="logo"/></a></div>
+			<div class="menu">
+				<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+				<label class="btn-menu" for="hmt">
+					<span class="first"></span>
+					<span class="second"></span>
+					<span class="third"></span>
+				</label>
+				<ul class="hidden-menu">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="#">О проекте</a></li>
+					<li><a href="#">Расположение</a></li>
+					<li><a href="uchastki.html">Участки</a></li>
+					<li><button type="button" data-toggle="modal" data-target=".bs-example-modal-lg">Связаться</button></li>
+					<li><a href="#">Смотреть ГП <img src="img/icon-pdf.png" alt="pdf"/></a></li>
+				</ul>
+			</div>
+		</nav>
+		<section class="page6">
+			<div class="wrap_page6">
+				<div class="page6_1">
+					<div class="page6_2">
+						<img src="img/house4.png" alt="house"/>
+						<p>3 типа дома</p>
+						<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet asperiores cumque delectus dolor expedita explicabo fuga in incidunt magni, modi officiis perferendis porro quasi ratione recusandae, sint velit.</span>
+					</div>
+
+					<div class="wrap_icon">
+						<div class="page2_icon1"><a href="#"><img src="img/house1.png" onmouseover="this.src='img/house1hover.png';"onmouseout="this.src='img/house1.png';" alt="house"/></a><br/><p>Дома <br/><span> 200</span></p><br/><button type="button" class="btn_page4">Смотреть</button></div>
+						<div class="page2_icon2"><a href="#"><img src="img/house2.png" onmouseover="this.src='img/house2hover.png';"onmouseout="this.src='img/house2.png';" alt="house"/></a><br/><p>Дома <br/><span>250</span></p><br/><button type="button" class="btn_page4">Смотреть</button></div>
+						<div class="page2_icon3"><a href="#"><img src="img/house3.png" onmouseover="this.src='img/house3hover.png';"onmouseout="this.src='img/house3.png';" alt="house"/></a><br/><p>Дома <br/><span>300</span></p><br/><button type="button" class="btn_page4">Смотреть</button></div>
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+		<section class="page7">
+			<div class="block1">
+				<div class="block_1_1">
+					<img src="img/plan1.jpg" alt="plan"/>
+				</div>
+				<div class="block_1_2">
+					<div class="title">
+						Дом до 200 м2
+					</div>
+					<p>Уютный дом для активной семейной пары.
+						Первый этаж – зона приема гостей, где комфортно расположились рабочий кабинет, а также гостинная и кухня-столовая, из которых можно выйти на уютную террасу. На первом этаже также расположены необходимые технические помещения (топочная, кладовка) и гараж для 2 автомобилей.
+
+						Второй этаж дома – семейная зона, где расположились хозяйская спальня с собственным саунзлом, гардеробной и лоджией, а также 2 детские комнаты со своим лоджиями. Основой второго этажа служит большая галерея, а для придания пространству легкости использован прием "второго света".
+						Удачное расположение дома на участке позволит органично разместить на территории домовладения бассейн и создать полноценный ландшафтный дизайн.</p>
+					<button type="button" class="btn_page7">Генеральный план</button>
+				</div>
+			</div>
+			<div class="resize">
+				<div class="block2">
+					<div class="block_2_1">
+						<img src="img/plan3.jpg" alt="plan"/>
+
+						<div class="wrap_block2">
+							<div class="btn_block2"><a href="#" target="_blank"><button type="button" class="btn_page7_1">Смотреть в новом окне <img src="img/icon-open.png" alt="open"/></button></a></div>
+						</div>
+
+					</div>
+					<div class="block_2_2">
+						<ul id="lightSlider" class="slide_hover">
+							<li data-thumb="img/slid1.jpg">
+								<img src="img/plan1.jpg" alt="bike">
+							</li>
+							<li data-thumb="img/slid2.jpg">
+								<img src="img/plan1.jpg" alt="bike">
+							</li>
+							<li data-thumb="img/slid3.jpg">
+								<img src="img/plan1.jpg" alt="bike">
+							</li>
+							<li data-thumb="img/slid4.jpg">
+								<img src="img/plan1.jpg" alt="bike">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="block1">
+				<div class="block_1_1">
+					<img src="img/plan1.jpg" alt="plan"/>
+				</div>
+				<div class="block_1_2">
+					<div class="title2">
+						Дом до 250 м2
+					</div>
+					<p>Функциональное домовладение для комфортной жизни.
+						Первый этаж – зона отдыха и приема гостей, где комфортно расположились рабочий кабинет, гостинная, компактная кухня и просторная столовая с выходом в великолепный внутренний дворик-патио с бассейном.
+						Для комфорта Ваших гостей предусмотрена гостевая комната рядом с рабочим кабинетом. На первом этаже также расположены необходимые технические помещения (топочная, кладовки, постирочная), сауна с комнатой отдыха, комнаты для обслуживающего персонала и навес для 2 автомобилей.
+
+						Второй этаж дома – семейная зона, где расположились хозяйская спальня с собственным саунзлом, гардеробной и лоджией, а также 2 детские комнаты с общей лоджией и санузлом.
+						Для придания пространству легкости использован прием "второго света".
+
+						Удачное расположение дома на участке позволит создать полноценный ландшафтный дизайн.</p>
+					<button type="button" class="btn_page7">Генеральный план</button>
+				</div>
+			</div>
+			<div class="resize">
+			<div class="block2">
+				<div class="block_2_1">
+					<img src="img/plan3.jpg" alt="plan"/>
+
+					<div class="wrap_block2">
+						<div class="btn_block2"><a href="#" target="_blank"><button type="button" class="btn_page7_1">Смотреть в новом окне <img src="img/icon-open.png" alt="open"/></button></a></div>
+					</div>
+
+				</div>
+				<div class="block_2_2">
+					<img src="img/plan2.jpg" alt="plan"/>
+				</div>
+			</div>
+			<div class="block1">
+				<div class="block_1_1">
+					<img src="img/plan1.jpg" alt="plan"/>
+				</div>
+				<div class="block_1_2">
+					<div class="title">
+						Дом до 300 м2
+					</div>
+					<p>Функциональный дом для большой семьи, ценящей комфорт и безопасность.
+
+						Первый этаж – зона отдыха и приема гостей, где комфортно расположились просторная гостинная и кухня-столовая, из которых можно выйти на великолепную террасу, часть которой открыта для наслаждения великолепным видом.
+						Выход на террасу также возможен из комнаты отдыха, которая соседствует с сауной и великолепным крытым бассейном.
+						На первом этаже также расположены рабочий кабинет, комната охраны, необходимые технические помещения (топочная, кладовка, постирочная) и стоянка с навесом для 2 автомобилей.
+
+						Второй этаж дома – спальная зона, где расположились просторная хозяйская спальня с собственным саунзлом, гардеробной и лоджией, 2 детские спальни с санузлом и гардеробной, а также гостевая спальня с собственным санузлом и гардеробной.
+						Для придания пространству легкости и воздушности использован прием "второго света".
+
+						Удачное расположение дома на участке позволит создать полноценный ландшафтный дизайн, а также разместить дополнительные постройки.</p>
+					<button type="button" class="btn_page7">Генеральный план</button>
+				</div>
+			</div>
+			<div class="block2">
+				<div class="block_2_1">
+					<img src="img/plan3.jpg" alt="plan"/>
+
+					<div class="wrap_block2">
+						<div class="btn_block2"><a href="#" target="_blank"><button type="button" class="btn_page7_1">Смотреть в новом окне <img src="img/icon-open.png" alt="open"/></button></a></div>
+					</div>
+
+				</div>
+				<div class="block_2_2">
+					<img src="img/plan2.jpg" alt="plan"/>
+				</div>
+			</div>
+		</section>
+		<section class="page8"></section>
+		<section class="page7"></section>
+		<section class="page7"></section>
+		<section class="page7"></section>
+		<section class="page7"></section>
+		<footer>
+			<p>© 2016 premium village. all rights reserved.</p>
+		</footer>
+	</div>
+</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+ <script src="js/lightslider.js"></script>
+<script src="js/js.js"></script>
+
+</body>
+</html>
