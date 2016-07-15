@@ -55,6 +55,7 @@
     .page7 .resize .wrap_block2{width:auto;}
     .page7 .resize .wrap_block2 .btn_block2{position:relative;left:12px;}
     .page7 .resize .wrap_block2 .btn_block2 a{position: relative;bottom:auto;font-family: 'GothamPro', sans-serif;font-size:16px;}
+    .page7 .resize .wrap_block2 .btn_block2 a img{display: inline;}
     .page7 .resize .wrap_block2 .btn_block2 img{margin-left:9px;}
     /*
     .page7 .resize .block2 .block_2_2 .lSPager{position:absolute;width:100%;left:0;bottom:0;margin-top:0!important;background-color:rgba(0, 0, 0, .75);padding:10px 64px 10px 64px;}
