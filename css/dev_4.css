@@ -36,11 +36,27 @@
     .page7 .resize .block2 .block_2_1{width:49.4%;display: flex;flex-direction:column;justify-content: space-around;align-items: center;}
     .page7 .resize .block2 .block_2_1 .block_2_1_img{text-align: center;}
     .page7 .resize .block2 .block_2_2{width:50.6%;position: relative;overflow: hidden;}
+    .page7 .resize .block2 .block_2_2 .slide_small{position: absolute;right:0;bottom:0;left:0;background:rgba(0, 0, 0, .75);padding:10px 64px 10px 64px;}
+    .page7 .resize .block2 .block_2_2 .slide_small img{border:1px solid transparent;}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow{border:none;background:none;font-size: 0;width:15px;height:29px;position:absolute;top:calc(50% - 15px);padding:0;margin:0;}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-current img{border-color:#fff;}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow.slick-prev{left:15px;}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow.slick-next{right:15px;}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow:focus{outline:none;}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow:before, .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow:after{content:'';width:20px;height:1px;background-color: #fff;left:0;top:50%;display: block;position:absolute;left:0;top:50%;}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow:before{transform:rotate(45deg);}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow:after{transform:rotate(-45deg);}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow.slick-prev:before, .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow.slick-prev:after{transform-origin:0 50%;}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow.slick-next:before, .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow.slick-next:after{transform-origin:100% 50%;left:auto;right:0;}
+    .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow:hover:before, .page7 .resize .block2 .block_2_2 .slide_small .slick-arrow:hover:after{opacity:.8;}
+    .page7 .resize .block2 .block_2_2 .slide_small img{margin:0 auto;}
+
     .page7 .resize .block2{background-color: #f5f5f5;}
     .page7 .resize .wrap_block2{width:auto;}
     .page7 .resize .wrap_block2 .btn_block2{position:relative;left:12px;}
     .page7 .resize .wrap_block2 .btn_block2 a{position: relative;bottom:auto;font-family: 'GothamPro', sans-serif;font-size:16px;}
     .page7 .resize .wrap_block2 .btn_block2 img{margin-left:9px;}
+    /*
     .page7 .resize .block2 .block_2_2 .lSPager{position:absolute;width:100%;left:0;bottom:0;margin-top:0!important;background-color:rgba(0, 0, 0, .75);padding:10px 64px 10px 64px;}
     .page7 .resize .block2 .block_2_2 .lSPager li{text-align: center;width:calc(100% / 4)!important;margin-right:0!important;}
     .page7 .resize .block2 .block_2_2 .lSPager li.active a{border-color:#fff;}
@@ -60,6 +76,7 @@
     .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:before, .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:after{transform-origin:100% 50%;left:auto;right:0;}
     .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:before{transform:rotate(45deg);}
     .page7 .resize .block2 .block_2_2 .lSAction>a.lSNext:after{transform:rotate(-45deg);}
+    */
 
     @media screen and (max-width:1200px){
 
@@ -90,12 +107,14 @@
         .page7 .block1 .block_1_1{display:none;}
         .page7 .block1 .block_1_2{padding: 0px 0px 20px 0px;float: none;}
         .page7 .block1 .block_1_2 .title, .page7 .block1 .block_1_2 .title.reverse{width: 100%;position: static;text-align: center;margin:0 0px 20px 0px;}
-        .page7 .block1 .block_1_2 .block7_content{margin:0 auto;}
+        .page7 .block1 .block_1_2 .block7_content{margin:0 auto;padding:0 10px;}
 
         .btn_page7{max-width:280px;width:100%;margin:0 auto 20px auto;display:block;}
 
         .page7 .resize .block2 .block_2_1, .page7 .resize .block2 .block_2_2{width:100%;float: none;}
+        .page7 .resize .block2 .block_2_1 img{max-width:calc(100% - 20px);margin:0 auto;display: block;}
         .page7 .resize .wrap_block2{padding:20px 0 20px 0;}
+        .page7 .resize .block2 .block_2_2 .slide_small{position: relative;}
 
     }
 
@@ -105,6 +124,12 @@
         .page6_1 .page6_2 span{left:0;}
 
         .page2_icon1, .page2_icon2{width: 100%;}
+
+    }
+
+    @media screen and (max-width:479px){
+
+        .btn_page7{max-width: calc(100% - 20px);margin:0 auto 20px auto;}
 
     }
 
