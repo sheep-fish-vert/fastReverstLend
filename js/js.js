@@ -13,8 +13,13 @@ $(document).ready(function() {
     });
 
     function modalHide(){
-        $('.menu .btn-menu').click(function() {
+        $('.menu .btn-menu').click(function(event) {
+            //event.preventDefault();
+
+             console.log('go');
             if( $('body').is('.modal-open') ){
+                $('.menu input[type="checkbox"]').prop('checked', 'false');
+                console.log('is(.modal-open)');
                 $('#modal-call-form').modal('hide');
             }
         });
